@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+
+.header-container {
+  width: 100%;
+  height: 5vw;
+  background: linear-gradient(90deg, #04ff64 1.18%, #a626d3 100%);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+.logo-container img {
+  width: 5vw;
+  margin: 0 1vw;
+}
+.logo-container .logo-text {
+  font-size: 2vw;
+  margin: 0 1vw;
+}
+.project-name {
+  font-size: 2vw;
+  margin: 0 2vw;
+}
+
+/*Meme*/
+
+.meme-container {
+  width: 80vw;
+  height: auto;
+  margin: 2vw auto;
+  background-color: aquamarine;
+  text-align: center;
+  padding: 36px;
+}
+.form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 1vw;
+}
+.form-button {
+  grid-column: 1/-1;
+  border-radius: 5px;
+  background: linear-gradient(90deg, #04ff64 1.18%, #a626d3 100%);
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.form-input{
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
+  text-indent: 15px;
+}
+.img-meme{
+  max-width: 50%;
+  margin: auto;
+}
